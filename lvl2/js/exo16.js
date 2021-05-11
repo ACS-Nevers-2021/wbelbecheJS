@@ -1,1 +1,3 @@
-//Code à faire ici
+let element = document.getElementById('getIt');
+
+console.log(element);

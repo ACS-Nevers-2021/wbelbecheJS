@@ -3,13 +3,14 @@
 let nombre = 3;
 let users = 5;
 
-function admin (nombre , users) {
-    if(isNaN(admin)){
-        return NaN;
+function addition(nombre , users) {
+    if(isNaN(addition)){
+        return true;
     }
     return nombre * users;
-}
-console.log(admin('2'));
+  }
+
+console.log(addition());
 
 
 
