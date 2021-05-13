@@ -1,5 +1,7 @@
 //Code à faire ici, NE RIEN CHANGER AU HTML !
 
-let aEnlever = document.getElementsByClassName('aEnlever')[0].style.visibility = 'hidden';
+let aEnlever = document.getElementsByClassName('aEnlever')[0].classList.add('aAjouter');
 
-aEnlever[0].style.color = "blue";
+aEnlever.style.visibility = 'hidden';
+
+aAjouter.style.color = 'blue';
